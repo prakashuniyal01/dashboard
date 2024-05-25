@@ -3,6 +3,8 @@ require("dotenv").config();
 const { app } = require("./src/app")
 const { monogdb_connection } = require("./src/db/mongo")
 
+const { kpis } = require("./src/data/data")
+
 const PORT = process.env.PORT || 8000;
 
 // dotenv.config({
