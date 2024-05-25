@@ -29,7 +29,7 @@ const Row1 = () => {
                 }
             })
         )
-    })
+    }, [data])
 
     const reveneuProfite = useMemo(() => {
         return (
@@ -42,7 +42,7 @@ const Row1 = () => {
                 }
             })
         )
-    })
+    }, [data])
 
     const revenue = useMemo(() => {
         return (
@@ -54,7 +54,7 @@ const Row1 = () => {
                 }
             })
         )
-    })
+    }, [data])
 
 
     return (
